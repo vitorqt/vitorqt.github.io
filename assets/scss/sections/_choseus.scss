@@ -1,0 +1,95 @@
+/*---------------------------
+** Why Chose Us Area Start
+---------------------------*/
+
+.choseus{
+  background: $bg-color;
+  padding: 110px 0px 90px;
+  .section-title{
+    margin-bottom: 48px;
+  }
+  .work-process{
+    .header{
+      .title{
+        font-size: 26px;
+        line-height: 34px;
+        color: $dark-color;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+    }
+    .process{
+      margin-top: 24px;
+      .process-box{
+        text-align: center;
+        background: #fff;
+        padding: 28px 20px 8px;
+        margin-bottom: 30px;
+        border: 2px solid #ddd;
+        @include transition();
+        &:hover{
+          @include box-shadow(0px, 10px, 40px, rgba(#000, .19), $inset: false);
+          border: 2px solid $base-color;
+        }
+        span{
+          width: 30px;
+          height: 30px;
+          line-height: 30px;
+          font-size: 14px;
+          border-radius: 50%;
+          background: $base-color;
+          color: $white;
+          display: inline-block;
+        }
+        h5{
+          text-transform: capitalize;
+          font-size: 20px;
+          line-height: 30px;
+          color: $dark-color;
+          font-weight: 600;
+          margin: 25px 0px 15px;
+        }
+        p{
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+  .our-skill{
+    .header{
+      .title{
+        font-size: 26px;
+        line-height: 34px;
+        color: $dark-color;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+  }
+  .skill-bar{
+    margin-top: 18px;
+    .list{
+      padding-left: 0px;
+      li{
+        list-style: none;
+        margin-bottom: 23px;
+        h5{
+          font-size: 16px;
+          line-height: 28px;
+          color: $dark-color;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 2px;
+        }
+        .progress{
+          background: #ddd;
+          height: 25px;
+        }
+        .progress-bar{
+          background-color: $base-color;
+        }
+      }
+    }
+  }
+}
+}

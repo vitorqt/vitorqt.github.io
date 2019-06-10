@@ -1,0 +1,61 @@
+/*---------------------------
+** We are best Area Start
+---------------------------*/
+
+.webest{
+  background-color: blue;
+  padding: 110px 0px 90px;   
+  position: relative;
+  .shape{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .choose-option{
+    text-align: center;
+    background: $white;
+    padding: 38px 20px 17px;
+    margin-bottom: 30px;
+    border: 2px solid #ddd;
+    position: relative;
+    @include transition();
+   &:hover{
+    border: 2px solid $base-color;
+    @include box-shadow(0px, 10px, 40px, rgba(#000, .19), $inset: false);
+   }
+    .icon{
+      img{
+        width: 70px;
+      }
+    }
+    .details{
+      margin-top: 18px;
+      .title{
+        font-size: 24px;
+        line-height: 34px;
+        color: $dark-color;
+        font-weight: 600;
+        margin-bottom: 14px;
+        display: block;
+      }
+      .text{
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------
+** We are best Area End
+---------------------------*/

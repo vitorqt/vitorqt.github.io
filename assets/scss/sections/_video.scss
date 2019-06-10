@@ -1,0 +1,70 @@
+/*---------------------------
+** Video Area Start
+---------------------------*/
+.video{
+  padding-top: 110px;
+  position: relative;
+  .shape{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 500px;
+    z-index: -9;
+  }
+  .round-shape2{
+    position: absolute;
+    top: 100px;
+    left: -145px;
+    z-index: -9;
+    img{
+    @include animate(shapeimg, 9.9s, ease-out, alternate, infinite);
+    }
+  }
+  .round-shape3{
+    position: absolute;
+    top: 147px;
+    left: -98px;
+    z-index: -9;
+    img{
+    @include animate(shapeimg, 7.9s, ease-out, alternate, infinite);
+    }
+  }
+
+  .section-title{
+    .title{
+      margin-bottom: 24px;
+    }
+  }
+  .video-wrapper{
+    position: relative;
+    .video-box{
+      position: relative;
+      @include main-gradint1;
+      padding: 250px 0px 250px;
+      z-index: 99;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+      &::after{
+        position: absolute;
+        content: " ";
+        width: 100%;
+        height: 100%;
+        background: url(../images/video.png) no-repeat center;
+        background-size: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      .overly{
+        @include gradint-overlay2(.4);
+      }
+      .play-icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+      }
+    }
+  }
+}

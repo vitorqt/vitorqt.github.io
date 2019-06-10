@@ -1,0 +1,102 @@
+/*---------------------------
+** Index 5 Area Start
+---------------------------*/
+
+  .hero-area{
+    .heroarea-slider{
+      &.owl-carousel{
+          .owl-item{
+              &.active{
+                 .layer-1,
+                 .layer-2,
+                 .layer-3,
+                 .layer-4
+                 {
+                  transform: translateY(0);
+                  opacity: 1;
+                 }
+              }
+          }
+          .owl-controls{
+              .owl-nav{
+                  .owl-prev,
+                  .owl-next
+                  {
+                    color: $descr-color;
+                    font-size: 22px;
+                    position: absolute;
+                    top: 50%;
+                    @include transform(translateY(-50%));
+                    text-align: center;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 53px;
+                    border-radius: 50%;
+                    border-radius: 50px;
+                    background: $white;
+                    opacity: 0;
+                    transition: $transition;
+                    @include box-shadow(0px, 10px, 30px, rgba(0, 0, 0, 0.20), $inset: false);
+                      &:hover{
+                         @include main-gradint1;
+                         i{
+                          color: #fff;
+                        }
+                      }
+                      
+                  }
+                  .owl-prev{
+                      left: 30px;
+                  }
+                  .owl-next{
+                      right: 30px;
+                  }
+              }
+          }
+      }
+      
+    }
+    .item{
+      .layer-1{
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all 1s ease-in-out 0.7s;
+      }
+      .layer-2{
+        transform: translateY(100%);
+        opacity: 0;
+        transition: all 1s ease-in-out .7s;
+  
+      }
+      .layer-3{
+        transform: translateY(100%);
+        opacity: 0;
+        transition: all 1s ease-in-out .7s;
+  
+      }
+      .layer-4{
+        transform: translateY(100%);
+        opacity: 0;
+        transition: all 1s ease-in-out .7s;
+  
+      }
+    }
+    &:hover{
+      .heroarea-slider{
+        &.owl-carousel{
+          .owl-controls{
+            .owl-nav{
+              .owl-prev,
+              .owl-next
+              {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  
+

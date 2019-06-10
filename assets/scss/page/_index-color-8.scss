@@ -1,0 +1,64 @@
+/*---------------------------
+** Index Color 8 Area Start
+---------------------------*/
+
+
+.index-color8{
+  .mybtn1,
+  .about .box .inner-box .icon::after,
+  .counter-area .fun-box .icon::after,
+  .counter-area .fun-box:hover .icon,
+  .pricing .price-box .price-rate::after,
+  .service .service-box .icon::after,
+  .contact .info-contact li .info-box .left .icon::after,
+  .service .service-box:hover .icon,
+  .counter-area .fun-box .icon,
+  .project-gallery .project-gallery-filter .project-gallery-menu .filter.active, 
+  .project-gallery .project-gallery-filter .project-gallery-menu .filter:hover,
+  .testimonial-area .testimonial-slider .client .client-image::after,
+  .team .team-member .social,
+  .team .team-member .member-data,
+  .team .owl-controls .owl-nav div.owl-prev::after,
+  .team .owl-controls .owl-nav div.owl-next::after,
+  .pricing .pricing-tab .tab-menu #my-tab .nav-item .nav-link.active, 
+  .pricing .pricing-tab .tab-menu #my-tab .nav-item .nav-link:hover,
+  .pricing .price-box .price-rate::before,
+  .navigation .navbar #mainmenu ul .nav-item .nav-link::before,
+  .pricing .price-box:hover .price-rate::after,
+  .contact .info-contact li .info-box .left .icon::before,
+  .contact .info-contact li .info-box:hover .icon::after,
+  .preloader-inner,
+  .bottomtotop i,
+  .service .service-box .icon,
+  .hero-area .heroarea-slider.owl-carousel .owl-controls .owl-nav .owl-prev:hover, 
+  .hero-area .heroarea-slider.owl-carousel .owl-controls .owl-nav .owl-next:hover,
+  .testimonial-area .testimonial-slider:hover .owl-controls .owl-nav div.owl-next:hover,
+  .testimonial-area .testimonial-slider:hover .owl-controls .owl-nav div.owl-prev:hover,
+  .video .video-wrapper .video-box .overly,
+  .about .box .inner-box .icon,
+  .counter-area .fun-box:hover .icon::after,
+  .pricing .price-box:hover .price-rate::before,
+  .contact .info-contact li .info-box:hover .icon::before,
+  .service .service-box:hover .icon::after
+   {    
+     background-image: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);
+     background-image: -moz-linear-gradient(to right, #fc4a1a, #f7b733);
+     background-image: -o-linear-gradient(to right, #fc4a1a, #f7b733);
+     background-image: -ms-linear-gradient(to right, #fc4a1a, #f7b733);
+     background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+
+
+.about .info .info-title span,
+.video-play-btn i,
+.get-intuch .content .title span
+ {    
+  background-image: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);
+  background-image: -moz-linear-gradient(to right, #fc4a1a, #f7b733);
+  background-image: -ms-linear-gradient(to right, #fc4a1a, #f7b733);
+  background-image: linear-gradient(to right, #fc4a1a, #f7b733);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+}

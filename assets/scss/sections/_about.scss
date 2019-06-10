@@ -1,0 +1,116 @@
+/*---------------------------
+** About Area Start
+---------------------------*/
+
+.about {
+  padding: 119px 0px 120px; 
+   position: relative;
+   overflow: hidden;
+  .shape{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 500px;
+    z-index: -9;
+  }
+  .round-shape4{
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    z-index: -9;
+    @include animate(shapeani1, 4.0s, ease-out, alternate, infinite);
+   
+  }
+  .round-shape6{
+    position: absolute;
+    top: 130px;
+    left: 170px;
+    z-index: -9;
+    @include animate(shapeani1, 4.5s, ease-out, alternate, infinite);
+   
+  }
+  .info {
+    .info-title {
+      font-size: 40px;
+      line-height: 50px;
+      font-weight: 700;
+      color: $dark-color;
+      margin-bottom: 43px;
+      display: block;
+      span {
+        @include gradient-text1;
+      }
+    }
+    .link{
+      margin-top: 45px;
+    }
+
+ }
+  .box{
+    text-align: center;
+    .inner-box{
+      width: 100%;
+      height: 100%;
+      background: $white;
+      position: relative;
+      z-index: 99;
+      padding: 43px 25px 21px;
+      border: 2px solid rgba(0, 0, 0, 0.07);
+      @include transition;
+      .icon{
+        color:  $dark-color;
+        font-size: 40px;
+        @include main-gradint1;
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        line-height: 80px;
+        border-radius: 3px;
+        color: #fff;
+        position: relative;
+        margin-bottom: 16px;
+        &::after{
+          position: absolute;
+          content: " ";
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          @include main-gradint1;
+          border-radius: 3px;
+          transform: rotate(45deg);
+          z-index: -5;
+          transition: 1s;
+        }
+      }
+      .title{
+        font-size: 22px;
+        font-weight: 600;
+        color: $dark-color;
+        margin: 26px 0px 19px;
+      }
+      .text{
+        margin-bottom: 0px;
+      }
+      &:hover{
+        @include box-shadow(0px, 15px, 30px, rgba(#000000, .08), $inset: false);
+        .icon{
+          &::after{
+            transform: rotate(-45deg);
+          }
+        }
+      }
+    }
+  }
+  .box2{
+    margin-top: 30px;
+  }
+  .box4{
+    margin-top: 30px;
+  }
+}
+
+/*---------------------------
+** About Area End
+---------------------------*/

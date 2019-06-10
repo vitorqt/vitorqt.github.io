@@ -1,0 +1,145 @@
+/*-----------------------------
+** Contact Area Start
+------------------------------*/
+
+.contact{
+  padding: 110px 0px 120px;
+  position: relative;
+
+  .shape{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 500px;
+  }
+  
+  .round-shape4{
+    position: absolute;
+    top: 230px;
+    right: 0px;
+    z-index: -9;
+    @include animate(shapeani1, 4.0s, ease-out, alternate, infinite);
+
+  }
+  .round-shape6{
+    position: absolute;
+    top: 140px;
+    right: 150px;
+    z-index: -9;
+    @include animate(shapeani1, 4.5s, ease-out, alternate, infinite);
+
+  }
+  .info-contact{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    li{
+      list-style: none;
+      .info-box{
+        background: $white;
+        margin-bottom: 30px;
+        padding: 38px 20px 24px 30px;
+        position: relative;
+        cursor: pointer;
+        display: flex;
+        @include box-shadow(0px, 5px, 25px, rgba(#000, .08), $inset: false);
+        .left{
+          margin-right: 40px;
+          .icon{     
+            font-size: 20px;
+            display: inline-block;
+            width: 55px;
+            height: 55px;
+            text-align: center;
+            line-height: 55px;
+            border-radius: 3px;
+            color: #fff;
+            position: relative;
+            margin-bottom: 16px;
+            &::after{
+              position: absolute;
+              content: "";
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border-radius: 3px;
+              @include main-gradint4;
+              z-index: 2;
+              transition: 1s;
+            }
+            &::before{
+              position: absolute;
+              content: "";
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border-radius: 3px;
+              @include main-gradint1;
+              transform: rotate(45deg);
+              z-index: 1;
+              transition: 1s;
+            }
+            i{
+              position: inherit;
+              z-index: 20;
+            }
+          }
+        }
+        .right{
+          display: flex;
+          height: 100%;
+          align-self: center;
+          .content{
+            display: inline-block;
+            padding-left: 0px;
+            p{
+              margin-bottom: 0px;
+            }
+          }
+        }
+        &:hover{
+          .icon{
+            &::after{
+              @include main-gradint1;
+            }
+            &::before{
+              @include main-gradint4;
+              transform: rotate(-45deg);
+            }
+          }
+        }
+        
+      }
+    }
+  }
+
+  .contact-form-wrapper{
+    background: $white;
+    @include box-shadow(0px, 5px, 25px, rgba(#000, .08), $inset: false);
+    padding: 49px 25px 49px;
+    @include transition();
+    .section-title{
+      margin-bottom: 48px;
+    }
+    #contact-form{
+      textarea{
+        margin-bottom: 9px;
+      }
+      .mybtn1{
+        border: 0px;
+        cursor: pointer;
+        margin-top: 22px;
+      }
+    }
+  }
+  .brand{
+    padding-top: 70px;
+  }
+}
+ 
+
+
+/*-----------------------------
+** Contact Area End
+------------------------------*/

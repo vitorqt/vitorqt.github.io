@@ -1,0 +1,115 @@
+
+/*
+--------------------------
+	Css Indexing
+--------------------------
+	Table of Css Content
+	------- *** -------
+
+--------------------------
+** @typography
+--------------------------
+** Global style
+--------------------------
+** Preloader
+--------------------------
+** Normalize
+--------------------------
+** Main Menu Area Start
+--------------------------
+** Hero Area Start
+--------------------------
+** About Area Start
+--------------------------
+** We are best Area Start
+--------------------------
+** Gate In Tuch Area Area Start
+--------------------------
+** Service Area Start 
+--------------------------
+** Why Chose Us Area Start
+--------------------------
+** Project Gallery Area Start 
+--------------------------
+** Counter Area Start
+--------------------------
+** Testimonial Area Start
+--------------------------
+** Team Area Start
+--------------------------
+** Pricing Area Start 
+--------------------------
+** FAQ Area Start  
+--------------------------
+** Blog Area Start
+--------------------------
+** Partner Area Start
+--------------------------
+** Contact Area Start
+--------------------------
+** Footer Area Start
+--------------------------
+** Blog & Blog details Area Start
+--------------------------
+** Index 2 Area Start
+--------------------------
+** Index 3 Area Start
+--------------------------
+** Index 5 Area Start
+--------------------------
+** Index Color 2 Area Start
+--------------------------
+** Index Color 3 Area Start
+--------------------------
+** Index Color 4 Area Start
+--------------------------
+
+
+*/
+
+
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+
+//=Section scss
+
+@import "sections/_main-menu";
+@import "sections/_hero-area";
+@import "sections/_about";
+@import "sections/_video";
+@import "sections/_whywebest";
+@import "sections/_get-intuch";
+@import "sections/_service";
+@import "sections/_choseus";
+@import "sections/_project-gallery";
+@import "sections/_counter";
+@import "sections/_testimonial";
+@import "sections/_team.scss";
+@import "sections/_pricing";
+@import "sections/_faq";
+@import "sections/_blog";
+@import "sections/_contact";
+@import "sections/_footer";
+
+
+
+
+//=Page scss
+@import "page/_blog&blogdetails";
+@import "page/_index2";
+@import "page/_index3";
+@import "page/_index5";
+@import "page/_index6";
+@import "page/_index7";
+@import "page/_index-color-2";
+@import "page/_index-color-3";
+@import "page/_index-color-4";
+@import "page/_index-color-5";
+@import "page/_index-color-6";
+@import "page/_index-color-7";
+@import "page/_index-color-8";
+
+
+

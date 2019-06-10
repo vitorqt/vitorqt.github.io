@@ -1,0 +1,64 @@
+/*---------------------------
+** Index 3 Area Start
+---------------------------*/
+.index2{
+  .hero-area .bgimg{
+    width: 100%;
+  }
+  .hero-area {
+    padding: 265px 0px 190px;
+  }
+  .shapecircle{
+    @include animate(shapeimg, 20s, ease-out, none, infinite);
+    position: absolute;
+  }
+  .about .shapecircle
+  {
+    right: -70px;
+    top: -70px;
+  }
+  .video .shapecircle{
+    left: -70px;
+    top: 70px;
+  }
+  .project-gallery .shapecircle
+  {
+    right: -70px;
+    top: 70px;
+  }
+  .testimonial-area{
+    overflow: hidden;
+  }
+  .testimonial-area .shapecircle{
+    left: -70px;
+    top: 70px;
+  }
+  .pricing {
+    overflow: hidden;
+  }
+  .pricing .shapecircle{
+    top: -70px;
+    right: -70px;
+  }
+  .blog .shapecircle{
+    top: 70px;
+    left: -70px;
+  }
+  .contact .shapecircle{
+    top: 70px;
+    right: -70px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
