@@ -1147,6 +1147,7 @@ select:focus {
       z-index: 99;
       padding: 43px 25px 21px;
       border: 2px solid rgba(0, 0, 0, 0.07);
+      border-radius: 20px;
       -webkit-transition: 0.3s ease-in;
       -moz-transition: 0.3s ease-in;
       transition: 0.3s ease-in; }
@@ -1404,7 +1405,8 @@ select:focus {
 .service {
   padding: 110px 0px 90px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #F7F8FC; }
   .service .shape {
     position: absolute;
     top: 0px;
@@ -1467,6 +1469,7 @@ select:focus {
     border: 2px solid rgba(0, 0, 0, 0.06);
     position: relative;
     z-index: 99;
+    border-radius: 20px;
     -webkit-transition: 0.3s ease-in;
     -moz-transition: 0.3s ease-in;
     transition: 0.3s ease-in; }
@@ -2994,7 +2997,7 @@ select:focus {
   overflow: hidden;
   position: relative;
   background: #F7F8FC;
-  padding: 94px 0px 0px; }
+  padding: 0px 0px 0px; }
   .footer .footer-info-area .footer-logo {
     margin-bottom: 23px;
     display: block; }
@@ -3849,19 +3852,13 @@ select:focus {
   background-position: center;
   background-size: cover; }
 .index7 .pricing {
-  background: url(../images/bgimg/bgimg5.jpg);
+  background: url(../images/img-custom/bg/doacao.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
 .index7 .faq {
   background: url(../images/bgimg/bgimg6.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-.index7 .footer {
-  background: url(../images/bgimg/bgimg7.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -3895,7 +3892,7 @@ select:focus {
 .index7 .footer-widget ul li a,
 .index7 .footer .copy-bg p,
 .index7 .footer .copy-bg a {
-  color: #fff; }
+  color: #3f2313; }
 .index7 .counter-area .fun-box .icon::after {
   display: none; }
 .index7 .faq .section-title {
@@ -4034,9 +4031,9 @@ select:focus {
 .index-color2 .about .info .info-title span,
 .index-color2 .video-play-btn i,
 .index-color2 .get-intuch .content .title span {
-  background: -webkit-linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%);
-  background: -moz-linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%);
-  background: linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%);
+  background: -webkit-linear-gradient(to left, #e4b700 0, #f1d847 99%);
+  background: -moz-linear-gradient(to left, #e4b700 0, #f1d847 99%);
+  background: linear-gradient(to left, #e4b700 0, #f1d847 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 

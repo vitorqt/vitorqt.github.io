@@ -35,7 +35,7 @@
 
   }
   .pricing{
-    background: url(../images/bgimg/bgimg5.jpg);
+    background: url(../images/img-custom/bg/doacao.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,14 +50,14 @@
     background-size: cover;
 
   }
-  .footer{
-    background: url(../images/bgimg/bgimg7.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  // .footer{
+  //   background: url(../images/bgimg/bgimg7.jpg);
+  //   background-attachment: fixed;
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  //   background-size: cover;
 
-  }
+  // }
   .overlay{
     position: absolute;
     content: "";
@@ -89,7 +89,7 @@
   .footer .copy-bg p,
   .footer .copy-bg a
   {
-    color: #fff;
+    color: #3f2313;
   }
   .counter-area .fun-box .icon::after{
     display: none;
