@@ -2328,7 +2328,8 @@ select:focus {
     padding: 22px 30px 30px;
     -webkit-transition: 0.3s ease-out;
     -moz-transition: 0.3s ease-out;
-    transition: 0.3s ease-out; }
+    transition: 0.3s ease-out;
+    border-radius: 20px; }
     .pricing .price-box .price-title .heading-title {
       color: #242424;
       font-size: 21px;

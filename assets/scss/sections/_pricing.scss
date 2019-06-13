@@ -68,6 +68,7 @@
     text-align: center;
     padding: 22px 30px 30px;
     @include transition(.3s ease-out);
+    border-radius: 20px;
    
  
     .price-title{
