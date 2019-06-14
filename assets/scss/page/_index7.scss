@@ -157,9 +157,9 @@
     .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, 
     .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before
     {
-      background: -webkit-linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%);
-      background: -moz-linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%);
-      background: linear-gradient(20deg, rgb(255, 255, 253), rgb(235, 198, 65), rgb(253, 255, 129)) rgb(255, 255, 253)
+      background: -webkit-linear-gradient(to right, #efd04c, #a76540fa);
+      background: -moz-linear-gradient(to right, #efd04c, #a76540fa);
+      background: linear-gradient(to right, #efd04c, #a76540fa)
     }
   }
   &.index-color3{

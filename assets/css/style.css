@@ -3935,9 +3935,9 @@ select:focus {
 .index7.index-color2 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before,
 .index7.index-color2 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before,
 .index7.index-color2 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before {
-  background: -webkit-linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%);
-  background: -moz-linear-gradient(to bottom, #21ecff 0, #2cc6ff 99%);
-  background: linear-gradient(20deg, #fffffd, #ebc641, #fdff81) #fffffd; }
+  background: -webkit-linear-gradient(to right, #efd04c, #a76540fa);
+  background: -moz-linear-gradient(to right, #efd04c, #a76540fa);
+  background: linear-gradient(to right, #efd04c, #a76540fa); }
 .index7.index-color3 .overlay,
 .index7.index-color3 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before,
 .index7.index-color3 .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before,
