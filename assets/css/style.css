@@ -2997,7 +2997,7 @@ select:focus {
 .footer {
   overflow: hidden;
   position: relative;
-  background: #F7F8FC;
+  background: #efcf4b7a;
   padding: 0px 0px 0px; }
   .footer .footer-info-area .footer-logo {
     margin-bottom: 23px;
@@ -3108,9 +3108,9 @@ select:focus {
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    -webkit-box-sizing: border-box,content-box;
-    box-sizing: border-box,content-box; }
-    .instagram-feed-widget .instagram-feed-list li:nth-child(3n+1) {
+    -webkit-box-sizing: border-box, content-box;
+    box-sizing: border-box, content-box; }
+    .instagram-feed-widget .instagram-feed-list li:nth-child(3n + 1) {
       margin-left: 0; }
 
 /*-----------------------------
@@ -3853,7 +3853,7 @@ select:focus {
   background-position: center;
   background-size: cover; }
 .index7 .pricing {
-  background: url(../images/img-custom/bg/doacao.jpg);
+  background: url(../images/img-custom/bg/apoiar.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
