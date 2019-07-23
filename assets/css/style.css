@@ -2999,59 +2999,14 @@ select:focus {
   position: relative;
   background: #efcf4b7a;
   padding: 0px 0px 0px; }
-  .footer .footer-info-area .footer-logo {
-    margin-bottom: 23px;
-    display: block; }
-    .footer .footer-info-area .footer-logo .logo-link {
-      font-size: 40px;
-      line-height: 50px;
-      font-weight: 700;
-      text-transform: uppercase; }
-    .footer .footer-info-area .footer-logo img {
-      max-width: 180px; }
-  .footer .footer-info-area .text {
-    margin-bottom: 24px; }
-  .footer .fotter-social-links ul {
-    padding-left: 0px;
-    margin-left: 0px; }
-    .footer .fotter-social-links ul li {
-      display: inline-block; }
-      .footer .fotter-social-links ul li a {
-        font-size: 14px;
-        width: 35px;
-        height: 35px;
-        display: inline-block;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 36px;
-        margin: 0px 3px;
-        color: #fff;
-        -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.18);
-        -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.18);
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.18);
-        -webkit-transition: 0.3s ease-in;
-        -moz-transition: 0.3s ease-in;
-        transition: 0.3s ease-in; }
-        .footer .fotter-social-links ul li a.facebook {
-          background: #0069f7;
-          border-color: #0069f7; }
-        .footer .fotter-social-links ul li a.twitter {
-          background: #00c6f7;
-          border-color: #00c6f7; }
-        .footer .fotter-social-links ul li a.linkedin {
-          background: #007bb5;
-          border-color: #007bb5; }
-        .footer .fotter-social-links ul li a.dribbble {
-          background: #f7007a;
-          border-color: #f7007a; }
-        .footer .fotter-social-links ul li a.google-plus {
-          background: #d1062c;
-          border-color: #d1062c; }
+  @media (min-width: 1087px) {
+    .footer #red-social {
+      display: none; } }
 
 .copy-bg {
   padding: 20px 0px 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
-  margin-top: 84px; }
+  margin-top: 50px; }
   .copy-bg p {
     font-size: 16px;
     line-height: 26px;
@@ -3065,53 +3020,6 @@ select:focus {
     transition: 0.3s ease-in; }
     .copy-bg a:hover {
       color: #9191ff; }
-
-.footer-widget .title {
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 600;
-  color: #242424; }
-.footer-widget ul {
-  padding-left: 0px;
-  margin-bottom: 0px; }
-  .footer-widget ul li {
-    list-style: none; }
-    .footer-widget ul li a {
-      color: #555; }
-    .footer-widget ul li i {
-      font-size: 14px;
-      margin-right: 4px; }
-
-.support-link-widget .title,
-.use-full-link-widget .title {
-  margin-bottom: 11px; }
-.support-link-widget .link-list li,
-.use-full-link-widget .link-list li {
-  border-bottom: 2px dotted rgba(0, 0, 0, 0.3);
-  padding: 9px 0;
-  display: block; }
-  .support-link-widget .link-list li:last-child,
-  .use-full-link-widget .link-list li:last-child {
-    border-bottom: 0px; }
-
-.instagram-feed-widget .title {
-  margin-bottom: 16px; }
-.instagram-feed-widget .instagram-feed-list {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-  .instagram-feed-widget .instagram-feed-list li {
-    display: inline-block;
-    margin: 8px;
-    max-width: 100px;
-    border: 5px solid #fff;
-    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    -webkit-box-sizing: border-box, content-box;
-    box-sizing: border-box, content-box; }
-    .instagram-feed-widget .instagram-feed-list li:nth-child(3n + 1) {
-      margin-left: 0; }
 
 /*-----------------------------
 ** Footer Area End
