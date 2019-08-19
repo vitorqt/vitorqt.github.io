@@ -279,6 +279,36 @@ h1 {
     margin-top: -55px;
 }
 
+
+/* NEWS STYLES */
+
+
+.card-body {
+    font-size: 14px;
+}
+.border {
+    border: 0;
+    cursor: pointer;
+}
+.btn-accordion {
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F0D14D;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.card-header {
+    background-color: #F0D14D!important;
+}
+
+.btn-accordion:hover {
+    background-color: rgb(172, 150, 53);
+}
+
+
+
 @media (max-width: 1015px) {
     #lab {
         width: 100%;
