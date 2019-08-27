@@ -299,12 +299,32 @@ h1 {
     cursor: pointer;
 }
 
+.btn-paypal {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 0;
+    padding: 10px;
+    float: left!important;
+    border-radius: 10px;
+    background-color: #F0D14D;
+    color: #FFF;
+    cursor: pointer;
+}
+
 .card-header {
     background-color: #F0D14D!important;
 }
 
 .btn-accordion:hover {
     background-color: rgb(172, 150, 53);
+}
+
+/* Modal Políticas públicas CSS */
+
+.text {
+    padding: 20px;
+    font-size: 16px;
+    font-style: italic;
 }
 
 
