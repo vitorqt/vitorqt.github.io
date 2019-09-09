@@ -284,8 +284,20 @@ h1 {
 
 
 .card-body {
+    font-size: 12px;
+}
+
+.card img {
+    height: 250px;
+}
+
+.small-text {
+    font-size: 11px;
+}
+.s-email {
     font-size: 14px;
 }
+
 .border {
     border: 0;
     cursor: pointer;
@@ -325,6 +337,14 @@ h1 {
     padding: 20px;
     font-size: 16px;
     font-style: italic;
+}
+
+.card-body ul li {
+    list-style: square;
+}
+
+.smart {
+    padding: 40px;
 }
 
 
