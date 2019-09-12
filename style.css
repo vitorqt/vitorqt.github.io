@@ -346,8 +346,29 @@ h1 {
 .smart {
     padding: 40px;
 }
+.gallery-item-content img {
+    height: 250px;
+}
+
+.content-overlay .content .links a p {
+    font-size: 18px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0f378b;
+}
+
+.smart span {
+    color: #0f378b;
+}
+
+h2.title {
+    text-transform: inherit!important;
+}
 
 
+@media (max-width: 425px) {
+    .mix { margin-top: 50px; }
+}
 
 @media (max-width: 1015px) {
     #lab {
