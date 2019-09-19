@@ -350,6 +350,10 @@ h1 {
     height: 250px;
 }
 
+.pull-left {
+    text-align: left;
+}
+
 .content-overlay .content .links a p {
     font-size: 18px;
     text-decoration: underline;
