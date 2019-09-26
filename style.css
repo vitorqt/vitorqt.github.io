@@ -282,6 +282,9 @@ h1 {
 
 /* NEWS STYLES */
 
+.subtitle, .title, .text-black {
+    color: #000!important;
+}
 
 .card-body {
     font-size: 12px;
