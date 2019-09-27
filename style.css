@@ -290,6 +290,13 @@ h1 {
     font-size: 12px;
 }
 
+.gallery-item-content {
+}
+.gallery-item-content img {
+    height: 200px!important;
+    margin-left: 30px;
+}
+
 .card img {
     height: 250px;
 }
