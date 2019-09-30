@@ -382,6 +382,10 @@ h2.title {
 
 @media (max-width: 425px) {
     .mix { margin-top: 50px; }
+    .gallery-item-content img {
+        height: 150px!important;
+        margin-left: 90px!important;
+    }
 }
 
 @media (max-width: 1015px) {
@@ -389,6 +393,7 @@ h2.title {
         width: 100%;
     }
 }
+
 
 @media (max-width: 820px) {
     .lab_item:nth-child(5n-1) {
